@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Library</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <div class="toolbar">
+            <div class="actions">
+                <button id="myLibrary">My movie Library</button>
+                <button id="allMoviesList">Search and Add new Movies</button>
+            </div>
+            <div class="filter">
+                <label>
+                    <select>
+                        <option>--Filter--</option>
+                        <option>Title</option>
+                        <option>Year of Release</option>
+                    </select>
+            </label>
+            </div>
+        </div>
+        <div>
+            <input type="text" id="search" class="search" placeholder="Search..."/>
+        </div>
+        <div class="movie-items">
+
+        </div>
+        <div class="library">
+            <span id="noMovieFound" style="display:none">Add movies to get started.</span>
+        </div>
+        <div class="more" id="more">
+            <button id="showMore">More</button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-text">
+            <span>PRIVACY POLICY | TERMS AND CONDITIONS</span>
+            <span style="padding-top: 10px; font-size: 12px;">2019 @ Lorem Ipsum. All rights reserved.</span>
+        </div>
+        <div class="social-text">
+            <span>Follow us on social</span>
+            <div class="social-icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Toast Message -->
+    <div id="toastMsg"></div>
+</body>
